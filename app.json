@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "To-do App",
+    "slug": "to-do",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.syfe.todo"
+    },
+    "android": {
+      "package": "com.syfe.todo"
+    },
+    "description": "A very basic to-do app built using React Native and Expo."
+  }
+}
